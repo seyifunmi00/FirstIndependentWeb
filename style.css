@@ -1,0 +1,170 @@
+body{
+    background-color:#f2f2f3;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+header{
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 0px;
+ background-color: black;
+ height: 4vh;
+ align-items: center;
+ justify-content: space-between;
+
+}
+header img{
+    width:200px;
+    padding-left: 20%;
+}
+header a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 20%;
+}
+.container{
+    height:80vh;
+    background-color: #f2f2f2;
+    padding-top: 40px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+.con{
+    width: 60%;
+    margin:auto;
+    padding-top:10px;
+
+}
+.home{
+    margin-top:5px
+}
+.con div a{
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 5%;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.first {
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.second {
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+.total{
+    width: 80%;
+    margin-left: auto;
+}
+.header{
+    font-size: 40px;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 40px 0;
+    height: 50px;
+    
+}
+form{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    margin-right: 25%;
+}
+form input{
+    padding-left:20px ;
+    flex:1;
+    border: 2px solid black;
+    outline: none;
+}
+.search a{
+    text-decoration: none;
+    color: green;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 1000;
+}
+form button{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 80%;
+}
+.firsts {
+    width: 32%;
+    background-color:rgba(128, 128, 128, 0.349);
+    box-shadow: 5px 8px rgb(70, 70, 70);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seconds {
+    width: 32%;
+    background-color:rgba(128, 128, 128, 0.349);
+    box-shadow: 5px 8px rgb(70, 70, 70);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third {
+    width: 32%;
+    background-color:rgba(128, 128, 128, 0.349);
+    box-shadow: 5px 8px rgb(70, 70, 70);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firsts img{
+    width: 100%;
+}
+.seconds img{
+    width: 100%;
+}
+.third img{
+    width: 100%;
+}
+.PARA p{
+    display: inline;
+}
+.me{
+    margin-left: 100px
+}
+.PARA{
+    margin: 10px 0;
+}
